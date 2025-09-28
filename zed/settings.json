@@ -13,21 +13,26 @@
   "project_panel": {
     "dock": "right"
   },
-  "vim_mode": true,
+
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "disable_ai": true,
+
   "ui_font_family": "Hack Nerd Font",
   "ui_font_size": 18,
   "ui_font_weight": 500,
   "buffer_font_family": "Hack Nerd Font",
   "buffer_font_size": 20,
   "buffer_font_weight": 600,
+
   "theme": {
     "mode": "system",
-    "light": "Dawnfox - blurred",
+    "light": "Dayfox - blurred",
     "dark": "One Dark"
   },
-  "features": {
-    "edit_prediction_provider": "none"
-  },
+
+  "vim_mode": true,
   "vim": {
     "use_system_clipboard": "on_yank"
   }
