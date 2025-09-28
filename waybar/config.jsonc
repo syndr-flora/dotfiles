@@ -18,9 +18,9 @@
     "cpu",
     "custom/gpu-usage",
     "memory",
-    "battery",
     "network",
     "pulseaudio",
+    "battery",
     "custom/control",
   ],
 
