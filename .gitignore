@@ -2,8 +2,10 @@
 
 !.gitignore
 !README.md
+
 !hypr/
 !images/
+!kitty/
 !waybar/
 !zed/
 
