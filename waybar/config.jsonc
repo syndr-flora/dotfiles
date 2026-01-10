@@ -14,14 +14,13 @@
 
   "modules-right": [
     "tray",
-    "cpu_text",
     "cpu",
     "memory",
     "custom/gpu-usage",
     "network",
     "pulseaudio",
     "battery",
-    "custom/control",
+    "custom/power",
   ],
 
   "custom/launcher": {
@@ -111,10 +110,16 @@
     "format": "{short}",
   },
 
-  "custom/control": {
-    "format": " ",
-    "on-click": "control",
-    "on-click-right": "killall control",
+  "custom/power": {
+    "format": "⏻",
     "tooltip": false,
+    "menu": "on-click",
+    "menu-file": "~/.config/waybar/power_menu.xml",
+    "menu-actions": {
+        "shutdown": "hyprctl dispatch exit && shutdown now",
+        "reboot": "hyprctl dispatch exit && reboot",
+        "suspend": "notify-send 'Suspend Not Implemented!'",
+        "hibernate": "notify-send 'Hibernate Not Implemented!'",
+    },
   },
 }

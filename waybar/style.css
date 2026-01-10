@@ -151,8 +151,9 @@ tooltip label {
     color: rgb(255, 255, 255);
 }
 
-#custom-control {
+#custom-power {
     font-size: 20px;
+    /* line-height: normal; */
     padding-left: 5px;
     padding-right: 5px;
     transition: none;
