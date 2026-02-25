@@ -7,4 +7,4 @@ Preview:
 
 ## Disclaimer
 
-_If you're here, you probably know already that if this repo ends up exlpoding your pc, I am **not responsible**. Thanks! :)_
+_If you're here, you probably know already that if this repo ends up exploding your pc, I am **not responsible**. Thanks! :)_
